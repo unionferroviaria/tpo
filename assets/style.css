@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  width: 100vw;
+}
+
+
+
+@media (max-width:768px){
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  #menu li {
+    float: left;
+  }
+  
+  #menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #menu li a:hover {
+    background-color: #111;
+  }
+  
+  #menu .active {
+    background-color: #4CAF50;
+  } 
+  #logo:hover {filter: blur(1px);}
+
+  #imagen1{margin-top: 20px;}
+  #imagen1:hover {filter: grayscale(80%);}
+  
+}
+
+@media (min-width:768px){
+
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  #menu li {
+    float: left;
+  }
+  
+  #menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #menu li a:hover {
+    background-color: #111;
+  }
+  
+  #menu .active {
+    background-color: #4CAF50;
+  }
+  #logo:hover {filter: blur(1px);}
+
+  #imagen1{margin-top: 20px;}
+  #imagen1:hover {filter: grayscale(80%);}
+    
+}
+
+
+@media (min-width:1024px){
+
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  #menu li {
+    float: left;
+  }
+  
+  #menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #menu li a:hover {
+    background-color: #111;
+  }
+  
+  #menu .active {
+    background-color: #4CAF50;
+  }
+
+  #logo:hover {filter: blur(1px);}
+
+  #imagen1{margin-top: 20px;}
+  #imagen1:hover {filter: grayscale(80%);}
+      
+}  
+
+
